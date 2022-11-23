@@ -102,7 +102,6 @@ const editTicket = asyncHandler(async (req, res) => {
     },
     { new: true }
   );
-  console.log(ticket);
   res.status(201).json(ticket);
 });
 
